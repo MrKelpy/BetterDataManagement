@@ -52,10 +52,11 @@ b.copy_to("new_path")  # Copies the directory to a new location.
 
 ```json
 // ContentsExample.json - Serialized JSON with (indent=4)
+// *path is the directory path
 
 {
     "MyPoems": {
-        "*path": "C:\\Users\\Alex\\Desktop\\MyPoems", // \*path is the directory path
+        "*path": "C:\\Users\\Alex\\Desktop\\MyPoems",
         "FriendlyPoems": {
             "*path": "C:\\Users\\Alex\\Desktop\\MyPoems\\FriendlyPoems",
             "Poem1.txt": "C:\\Users\\Alex\\Desktop\\MyPoems\\FriendlyPoems\\Poem1.txt",
