@@ -114,9 +114,12 @@ b.write("Text")  # Writes data to the file, this will overwrite any existant dat
 
 # Appending data to the file
 b.append("Text")  # Appends data to the file, this will add in any data at the end of the file.
+# It has binary support and is able to write binary data too.
 
 # Retrieve the contents from the file
 content, lines = b.get_contents()  # This method returns two values, the file content, and the file content in lines. (file.read, file.readlines())
 # You may iterate over the lines for the content of each.
+# It has binary support and is able to read binary data too.
+
 ```
 
