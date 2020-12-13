@@ -55,7 +55,7 @@ b.copy_to("new_path")  # Copies the directory to a new location.
 
 {
     "MyPoems": {
-        "*path": "C:\\Users\\Alex\\Desktop\\MyPoems", // *path is the directory path
+        "*path": "C:\\Users\\Alex\\Desktop\\MyPoems", // \*path is the directory path
         "FriendlyPoems": {
             "*path": "C:\\Users\\Alex\\Desktop\\MyPoems\\FriendlyPoems",
             "Poem1.txt": "C:\\Users\\Alex\\Desktop\\MyPoems\\FriendlyPoems\\Poem1.txt",
