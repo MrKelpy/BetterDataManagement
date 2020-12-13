@@ -1,6 +1,12 @@
 # BetterDataManagement
 The BDM ( Better Data Management ) Library is a Python Library designed to provide a better data management when it comes to files and directories.
 
+# Installation
+
+```python
+pip install betterdatamanagement
+```
+
 # Library Usage
 
 The library includes two new objects; The Bdir and the Bfile, referring to Better Directory and Better File, respectively.
